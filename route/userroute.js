@@ -11,5 +11,6 @@ routeUser.post('/signin',body('email').not().isEmpty(),body('password').not().is
 userControl.SignIn);
 
 routeUser.get('/view',userControl.View);
+routeUser.get('/view2',userControl.View);
 
 module.exports=routeUser;
